@@ -24,13 +24,13 @@
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="visually-hidden">Поиск</span>
-          <img src="./images/search.svg" width="18" height="18" alt="Поиск">
+          <img src="./images/search.svg" width="18" height="18" alt="Поиск" class="search">
         </a>
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#"><span class="visually-hidden">Избранное
         <img src="./images/favorite.svg" width="18"
-             height="17" alt="Избранное">
+             height="17" alt="Избранное" class="favorite">
         </span>
 
         </a>
@@ -45,11 +45,13 @@
 
 <main class="main-inner">
 <header class="inner-header">
+  <img src="./images/catalog-background.jpg" width="1200" height="403" alt="Красивый вид на каньон Седона"
+       class="search-background">
   <h1 class="inner-header-title">Гостиницы Седоны</h1>
   <ul class="breadcrumbs">
     <li class="breadcrumbs-item">
       <a class="breadcrumbs-link" href="index.html">
-        <img src="images/home.svg" width="12" height="12" alt="Домой">
+        <img src="images/home.svg" width="12" height="12" alt="Домой" class="home">
       </a>
     </li>
     <li class="breadcrumbs-item">
@@ -63,7 +65,7 @@
         <legend class="catalog-filter-title">Инфраструктура</legend>
         <ul class="catalog-filter-list">
           <li class="catalog-filter-item">
-            <img src="images/checkbox.svg" width="12" height="10" alt="Чекбокс">
+            <img src="images/checkbox.svg" width="12" height="10" alt="Чекбокс" class="checkbox">
         <label class="control">
           <input class="control-input" type="checkbox" name="swim" checked>
           Бассейн
@@ -71,7 +73,7 @@
           </li>
 
           <li class="catalog-filter-item">
-            <img src="images/checkbox.svg" width="12" height="10" alt="Чекбокс">
+            <img src="images/checkbox.svg" width="12" height="10" alt="Чекбокс" class="checkbox">
             <label class="control">
               <input class="control-input" type="checkbox" name="parking" checked>
               Парковка
@@ -153,10 +155,10 @@
   <a class="product-card-button button" href="#">Подробнее</a>
   <a class="product-card-button-like button" href="#">В избранное</a>
   <section class="rating">
-    <img src="#" alt="Одна звезда">
-    <img src="#" alt="Две звезды">
-    <img src="#" alt="Три звезды">
-    <img src="#" alt="Четыре звезды">
+    <img src="#" alt="Одна звезда" class="star">
+    <img src="#" alt="Две звезды" class="star">
+    <img src="#" alt="Три звезды" class="star">
+    <img src="#" alt="Четыре звезды" class="star">
     <p>Рейтинг: 8,5</p>
   </section>
 </li>
@@ -171,10 +173,10 @@
       <a class="product-card-button button" href="#">Подробнее</a>
       <a class="product-card-button-like button" href="#">В избранное</a>
       <section class="rating">
-        <img src="#" alt="Одна звезда">
-        <img src="#" alt="Две звезды">
-        <img src="#" alt="Три звезды">
-        <img src="#" alt="Четыре звезды">
+        <img src="#" alt="Одна звезда" class="star">
+        <img src="#" alt="Две звезды" class="star">
+        <img src="#" alt="Три звезды" class="star">
+        <img src="#" alt="Четыре звезды" class="star">
         <p>Рейтинг: 9,2</p>
       </section>
     </li>
@@ -189,9 +191,9 @@
       <a class="product-card-button button" href="#">Подробнее</a>
       <a class="product-card-button-like button" href="#">В избранное</a>
       <section class="rating">
-        <img src="#" alt="Одна звезда">
-        <img src="#" alt="Две звезды">
-        <img src="#" alt="Три звезды">
+        <img src="#" alt="Одна звезда" class="star">
+        <img src="#" alt="Две звезды" class="star">
+        <img src="#" alt="Три звезды" class="star">
         <p>Рейтинг: 6,9</p>
       </section>
     </li>
@@ -208,8 +210,8 @@
       <a class="product-card-button button" href="#">Подробнее</a>
       <a class="product-card-button-like button" href="#">В избранное</a>
       <section class="rating">
-        <img class="" src="#" alt="Одна звезда">
-        <img src="#" alt="Две звезды">
+        <img class="" src="#" alt="Одна звезда" class="star">
+        <img src="#" alt="Две звезды" class="star">
         <p>Рейтинг: 5,0</p>
       </section>
     </li>
@@ -248,7 +250,7 @@
   <section class="subscribe">
     <h3>Подпишитесь на рассылку</h3>
     <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-    <form class="subsribe-form" action="https://echo.htmlacademy.ru/" method="post">
+    <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
       <label for="subscribe-email"  class="visually-hidden">Email</label>
       <input type="email" name="subscribe-email" placeholder="Ваш e-mail" id="subscribe-email">
       <button class="button" type="submit">Подписаться</button>
@@ -262,16 +264,19 @@
   <section class="visually-hidden">Соц сети
     <ul class="footer-social-list">
       <li class="footer-social-item">
+        <img src="./images/vk.svg" width="24" height="14" alt="Вконтакте">
         <a class="button" href="https://vk.com/htmlacademy">
           <span class="visually-hidden">Вконтакте</span>
         </a>
       </li>
       <li class="footer-social-item">
+        <img src="./images/telegram.svg" width="18" height="15" alt="Телеграм">
         <a class="button" href="https://t.me/htmlacademy ">
           <span class="visually-hidden">Телеграм</span>
         </a>
       </li>
       <li class="footer-social-item">
+        <img src="./images/youtube.svg" width="22" height="17" alt="Ютуб">
         <a class="button" href="https://www.youtube.com/user/htmlacademyru">
           <span class="visually-hidden">Ютуб</span>
         </a>
@@ -283,7 +288,7 @@
   </section>
   <section class="visually-hidden">Логотип</section>
   <a href="https://htmlacademy.ru/">
-    <img class="footer-contacts-logo" src="#" alt="Логотип Академии">
+    <img class="footer-contacts-logo" src="./images/html-logo.svg" width="115" height="33" alt="Логотип Академии">
   </a>
 </footer>
 </body>
