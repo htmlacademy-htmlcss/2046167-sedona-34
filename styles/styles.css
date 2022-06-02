@@ -33,9 +33,38 @@ body {
 font-family: "PT Sans", sans-serif;
   line-height: 26px;
   color: inherit;
-
+  font-weight: 700;
+  text-align: justify;
   background-color: #ffffff;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto ;
+}
+
+.advantages-full-list {
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
 
 }
