@@ -42,10 +42,9 @@ font-family: "PT Sans", sans-serif;
 }
 
 .navigation-button {
-  position: absolute;
   width: 160px;
   height: 37px;
-  background-color: #000;: #756157;
+  background-color: #756157;
   border-radius: 4px;
 }
 
