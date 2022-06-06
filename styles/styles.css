@@ -21,6 +21,8 @@ html {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -33,6 +35,7 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   line-height: 26px;
@@ -43,12 +46,18 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.main-container {
+  flex-grow: 1;
+}
+
 .navigation-button {
   width: 160px;
   height: 37px;
   background-color: #756157;
   border-radius: 4px;
 }
+
 .main-index {
   color: #000000;
   background-color: #ffffff;
