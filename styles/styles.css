@@ -37,7 +37,17 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+}
 
+.navigation-list {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
 }
 
 .main-header {
