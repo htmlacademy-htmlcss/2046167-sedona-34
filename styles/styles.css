@@ -60,7 +60,7 @@ body {
   margin: 0 auto;
 }
 
-.welcome {
+.welcome-img {
   display: block;
   margin: 0 auto;
 }
@@ -106,9 +106,13 @@ body {
 }
 
 .advantages-full-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   font-style: normal;
+
 }
 
 .about-sedona {
@@ -151,12 +155,6 @@ body {
 .advantages-item {
   color: #000000;
   background-color: #ffffff;
-}
-
-.advantages-full-list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .advantages-img {
