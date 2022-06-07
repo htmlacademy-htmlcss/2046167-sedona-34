@@ -55,6 +55,26 @@ body {
   background-color: #ffffff;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+.gorgeus {
+  display: block;
+  margin: 0 auto;
+}
+
+.sedona-grand {
+  display: block;
+  margin: 0 auto;
+}
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   line-height: 26px;
