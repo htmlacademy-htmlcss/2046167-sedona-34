@@ -102,17 +102,32 @@ body {
   background-color: #ffffff;
   background-image: url("../images/canyon.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto ;
+  background-size: 100% auto;
 }
+
 .advantages-full-list {
+  margin: 0;
+  padding: 0;
   font-style: normal;
 }
+
+.about-sedona {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-full-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .heading {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
+
 .text-basic {
   font-weight: 400;
   font-size: 22px;
