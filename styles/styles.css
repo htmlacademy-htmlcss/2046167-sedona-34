@@ -30,7 +30,16 @@ body {
   background-color: #ffffff;
   text-align: center;
 }
+
 /* Pages */
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
 .main-header {
   color: #000000;
   background-color: #ffffff;
