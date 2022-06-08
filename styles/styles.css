@@ -165,6 +165,17 @@ body {
   background-color: #ffffff;
 }
 
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.advantages-item-1 {
+  display: flex;
+}
+
 .advantages-img {
   width: 400px;
   height: 384px;
