@@ -171,6 +171,15 @@ body {
   min-height: 385px;
 }
 
+.china .eating .living .area .road .toutists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 30px;
+
+}
+
 .advantages-block-4 {
   display: flex;
 }
@@ -200,6 +209,11 @@ body {
   background-color: #82B3D3;
 }
 
+.reservation-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .reservation-form {
   font-weight: 700;
   font-size: 30px;
@@ -213,19 +227,26 @@ body {
   line-height: 26px;
   color: #333333;
 }
+
 .subscribe {
   color: #ffffff;
   background-color: #000000;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto ;
+  background-size: 100% auto;
 }
+
+subscribe-block {
+  display: flex;
+}
+
 .subscriber-text {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
-.button-all{
+
+.button-all {
   background-color: #756157;
   border-radius: 4px;
 }
