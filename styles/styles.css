@@ -96,7 +96,7 @@ body {
   background-size: 100% auto;
 }
 
-.calltoaction {
+.calltoaction .sub-image {
   position: relative;
   text-align: center;
 }
@@ -236,10 +236,6 @@ body {
   background-size: 100% auto;
 }
 
-subscribe-block {
-  display: flex;
-}
-
 .subscriber-text {
   font-weight: 400;
   font-size: 22px;
@@ -253,10 +249,30 @@ subscribe-block {
 .form-input {
   font-family: inherit;
 }
-.form-button{
+
+.form-button {
   font-family: inherit;
 }
-.page-footer .contacts-phone {
+
+.page-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-social-item {
+  list-style: none;
+  display: inline;
+}
+
+.contacts-phone {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -264,7 +280,6 @@ subscribe-block {
   color: #000000;
   background-color: #ffffff;
 }
-
 
 /* catalog */
 .inner-header-title {
