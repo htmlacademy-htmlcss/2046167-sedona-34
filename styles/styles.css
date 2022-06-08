@@ -132,13 +132,62 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-block-1 {
+  display: flex;
+}
+
+.advantages-item-1 {
+  display: flex;
+  max-width: 1200px;
+  min-height: 385px;
+}
+
+.advantages-block-2 {
+  display: flex;
+}
+
+.advantages-item-2 {
+  display: flex;
+  max-width: 1200px;
+  min-height: 385px;
+}
+
+.advantages-block-3 {
+  display: flex;
+}
+
+.advantages-item-3 {
+  display: flex;
+  max-width: 1200px;
+  min-height: 385px;
+}
+
+.advantages-block-4 {
+  display: flex;
+}
+
+.advantages-item-4 {
+  display: flex;
+  max-width: 1200px;
+  min-height: 385px;
+}
+
 .advantages-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-
 }
+
 .advantage-description {
   font-weight: 400;
   font-size: 18px;
@@ -149,43 +198,6 @@ body {
 .main-title {
   color: #ffffff;
   background-color: #82B3D3;
-}
-
-.advantages-item {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.advantages-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.advantages-item-1 {
-  display: flex;
-  max-width: 1200px;
-  min-height: 385px;
-}
-
-.advantages-item-2 {
-  display: flex;
-  max-width: 1200px;
-  min-height: 385px;
-}
-
-.advantages-item-3 {
-  display: flex;
-  max-width: 1200px;
-  min-height: 385px;
-}
-
-.advantages-item-4 {
-  display: flex;
-  max-width: 1200px;
-  min-height: 385px;
 }
 
 .reservation-form {
