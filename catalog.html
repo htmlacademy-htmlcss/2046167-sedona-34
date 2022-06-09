@@ -8,7 +8,8 @@
 <body>
 <header class="main-header">
   <link rel="stylesheet" href="./styles/styles.css">
-  <img class="logo" src="./images/sedona-logo.svg" width="139" height="70" alt="Логотип сайта Седона">
+  <img class="sedona-logo" src="./images/sedona-logo.svg" width="139"
+       height="70" alt="Логотип сайта Седона">
   <nav class="navigation">
     <ul class="navigation-list">
       <li class="navigation-item">
@@ -54,7 +55,7 @@
                                         class="search-background"></div>
       <div class="menu-crumbs"><h1 class="inner-header-title">Гостиницы
         Седоны</h1>
-        <ul class="breadcrumbs">
+        <ul class="breadcrumbs reset-list">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
               <img src="images/home.svg" width="12" height="12" alt="Домой"
@@ -73,7 +74,7 @@
               method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура</legend>
-            <ul class="catalog-filter-list">
+            <ul class="catalog-filter-list reset-list">
               <li class="catalog-filter-item">
                 <img src="images/checkbox.svg" width="12" height="10"
                      alt="Чекбокс" class="checkbox">
@@ -105,17 +106,19 @@
 
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья</legend>
-            <ul class="catalog-filter-list">
+            <ul class="catalog-filter-list reset-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="product-group" checked>
+                  <input class="control-input" type="radio" name="product-group"
+                         checked>
                   Гостиница
                 </label>
               </li>
 
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="product-group">
+                  <input class="control-input" type="radio"
+                         name="product-group">
                   Мотель
                 </label>
               </li>
@@ -157,17 +160,18 @@
         <a href="#" class="button button-active">
           <span class="visually-hidden" hidden>Показать список</span>
         </a>
-        <ul class="product-list">
-<li class="product-card">
-  <a class="product-card-link" href="#">
-    <img class="product-card-image" src="./images/catalog/hotel-1.jpg" width="300" height="211" alt="Отель Амара вид на горы">
-    <h4 class="product-title">Amara Resort & Spa</h4>
-  </a>
-  <p class="hotel">Гостиница</p>
-  <p class="price">От 4000 ₽</p>
-  <a class="product-card-button button" href="#">Подробнее</a>
-  <a class="product-card-button-like button" href="#">В избранное</a>
-  <section class="rating">
+      <ul class="product-list reset-list">
+        <li class="product-card">
+          <a class="product-card-link" href="#">
+            <img class="product-card-image" src="./images/catalog/hotel-1.jpg"
+                 width="300" height="211" alt="Отель Амара вид на горы">
+            <h4 class="product-title">Amara Resort & Spa</h4>
+          </a>
+          <p class="hotel">Гостиница</p>
+          <p class="price">От 4000 ₽</p>
+          <a class="product-card-button button" href="#">Подробнее</a>
+          <a class="product-card-button-like button" href="#">В избранное</a>
+          <section class="rating">
     <img src="./images/star.svg" alt="Одна звезда" class="star">
     <img src="./images/star.svg" alt="Одна звезда" class="star">
     <img src="./images/star.svg" alt="Одна звезда" class="star">
@@ -212,17 +216,18 @@
           </li>
 
         </ul>
-        <ul class="product-list">
-          <li class="product-card">
-            <a class="product-card-link" href="#">
-              <img class="product-card-image" src="./images/catalog/hotel-4.jpg" width="300" height="211" alt="Отель Грин">
-              <h4 class="product-title">GreenTree Inn</h4>
-            </a>
-            <p class="hotel">Гостиница</p>
-            <p class="price">От 1500 ₽</p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <a class="product-card-button-like button" href="#">В избранное</a>
-            <section class="rating">
+      <ul class="product-list reset-list">
+        <li class="product-card">
+          <a class="product-card-link" href="#">
+            <img class="product-card-image" src="./images/catalog/hotel-4.jpg"
+                 width="300" height="211" alt="Отель Грин">
+            <h4 class="product-title">GreenTree Inn</h4>
+          </a>
+          <p class="hotel">Гостиница</p>
+          <p class="price">От 1500 ₽</p>
+          <a class="product-card-button button" href="#">Подробнее</a>
+          <a class="product-card-button-like button" href="#">В избранное</a>
+          <section class="rating">
               <img src="./images/star.svg" alt="Одна звезда" class="star">
               <img src="./images/star.svg" alt="Одна звезда" class="star">
               <p class="rating">Рейтинг: 5,0</p>
@@ -230,17 +235,17 @@
           </li>
         </ul>
 
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
-          </li>
-          <li class="pagination-item">
+      <ul class="pagination reset-list">
+        <li class="pagination-item">
+          <a class="pagination-link pagination-current">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">3</a>
+        </li>
+        <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
