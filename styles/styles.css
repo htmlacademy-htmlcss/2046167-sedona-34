@@ -120,9 +120,22 @@ body {
   margin: auto;
 }
 
+.frame {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 428px;
+  bottom: 0;
+
+}
+
 .about-sedona {
-  margin: 0;
+  margin: 63px;
+  display: block;
   padding: 0;
+
 }
 
 .heading {
