@@ -198,16 +198,6 @@ body {
   min-height: 385px;
 }
 
-/*.china .eating .living .area .road .toutists {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  align-items: center;*/
-/*  padding: 0;*/
-/*  gap: 30px;*/
-/*  background-color: #83B3D3;*/
-
-/*}*/
-
 .living {
   width: 400px;
   height: 384px;
@@ -234,6 +224,24 @@ body {
   display: flex;
   max-width: 1200px;
   min-height: 385px;
+}
+
+.road {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.area {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.toutists {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-title {
