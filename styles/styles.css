@@ -307,12 +307,37 @@ body {
 }
 
 /* catalog */
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.menu-crumbs {
+  position: absolute;
+  width: 495px;
+  height: 78px;
+  left: 2px;
+  top: 88px;
+}
+
+.catalog-filter {
+
+  position: absolute;
+  margin-top: 184px;
+  margin-left: 70px;
+}
+
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
-  background-color: #000000;
+  /*background-color: #000000;*/
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 635px;
+  margin-bottom: 290px;
+  margin-left: 70px;
 }
 .product-title {
   font-weight: 700;
