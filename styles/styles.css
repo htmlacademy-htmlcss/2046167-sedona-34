@@ -171,6 +171,13 @@ body {
   min-height: 385px;
 }
 
+.advandages-text {
+  background-color: #82B3D3;
+  width: 400px;
+  height: 384px;
+
+}
+
 .advantages-block-2 {
   display: flex;
 }
