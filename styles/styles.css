@@ -424,10 +424,10 @@ body {
   display: flex;
 }
 
-
 .background-down {
-  position: relative;
-  text-align: center;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto, cover;
 }
 
 
@@ -437,7 +437,6 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   margin-top: 94px;
-  margin-left: 398px;
 }
 
 .subscriber-text {
