@@ -193,6 +193,13 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.advantages-title .main-title {
+  color: #ffffff;
+  text-align: center;
 }
 
 .advantages-block-1 {
@@ -203,13 +210,13 @@ body {
   display: flex;
   max-width: 1200px;
   min-height: 385px;
+
 }
 
 .advandages-text {
   background-color: #82B3D3;
   width: 400px;
   height: 384px;
-
 }
 
 .advantages-block-2 {
@@ -284,6 +291,41 @@ body {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+  /*margin-top: 102px;*/
+  /*margin-bottom: 30px;*/
+  width: 230px;
+}
+
+.advantages-title-square {
+  width: 230px;
+  height: 28px;
+  text-transform: uppercase;
+  margin-left: 85px;
+}
+
+.advantage-description-square {
+  width: 230px;
+  height: 63px;
+  margin-left: 85px;
+  margin-bottom: 82px;
+}
+
+.advantages-house {
+  width: 75px;
+  height: 72px;
+  margin-top: 80px;
+}
+
+.advantages-eat {
+  width: 75px;
+  height: 72px;
+  margin-top: 80px;
+}
+
+.advantages-souvenirs {
+  width: 75px;
+  height: 72px;
+  margin-top: 80px;
 }
 
 .advantage-description {
@@ -293,9 +335,42 @@ body {
   color: #333333;
 }
 
+.advantages-title-block2 {
+  margin-left: 85px;
+  margin-top: 103px;
+}
+
+.advantage-description-block2-about {
+  width: 230px;
+  height: 42px;
+  margin-left: 85px;
+
+
+}
+
+.advantage-description-block2 {
+  margin-left: auto;
+
+}
+
+.advantage-description-white {
+  color: #ffffff;
+}
+
+.advantages-about {
+  margin-bottom: 92px;
+  margin-left: 85px;
+  color: #ffffff;
+  width: 230px;
+  height: 64px;
+}
+
 .main-title {
   color: #ffffff;
   background-color: #82B3D3;
+  margin-top: 92px;
+  margin-left: 85px;
+
 }
 
 .reservation-list {
