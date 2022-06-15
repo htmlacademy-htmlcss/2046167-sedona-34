@@ -143,24 +143,29 @@ body {
 
 .welcome-text {
   position: absolute;
-  display: inline-block;
-  width: 458px;
-  height: 352px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  display: block;
+  margin-left: 351px;
+  margin-top: -450px;
+
+  /*display: inline-block;*/
+  /*width: 458px;*/
+  /*height: 352px;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*margin: auto;*/
 }
 
 .frame {
   position: absolute;
-  display: inline-block;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 428px;
-  bottom: 0;
+  display: block;
+  margin-top: -50px;
+  /*margin: auto;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*top: 428px;*/
+  /*bottom: 0;*/
 
 }
 
@@ -390,6 +395,9 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  width: 592px;
+  height: 52px;
+  margin-left: 304px;
 }
 
 
@@ -427,6 +435,9 @@ body {
 .button-all {
   background-color: #756157;
   border-radius: 4px;
+  width: 574px;
+  height: 60px;
+
 }
 .form-input {
   font-family: inherit;
