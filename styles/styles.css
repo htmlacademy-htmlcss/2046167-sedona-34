@@ -139,6 +139,7 @@ body {
 .calltoaction {
   position: relative;
   text-align: center;
+  background-repeat: no-repeat;
 }
 
 .welcome-text {
@@ -236,12 +237,29 @@ body {
 
 .advantages-block-3 {
   display: flex;
+  margin: 0;
 }
 
 .advantages-item-3 {
   display: flex;
   max-width: 1200px;
   min-height: 385px;
+}
+
+.sedona-canyon {
+  width: 800px;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.sedona-city {
+  width: 800px;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .living {
@@ -288,7 +306,6 @@ body {
   width: 400px;
   height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
-
 }
 
 .advantages-title {
@@ -396,7 +413,7 @@ body {
   line-height: 26px;
   color: #333333;
   width: 592px;
-  height: 52px;
+  /*height: 52px;*/
   margin-left: 304px;
 }
 
@@ -413,17 +430,14 @@ body {
   text-align: center;
 }
 
-.subscribe {
-  color: #ffffff;
-  background-color: #000000;
-  /*background-image: url("../images/background.jpg");*/
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*position: center;*/
-  /*margin: 0 auto;*/
-  /*align-items: center;*/
+
+.subscribe-email {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 94px;
+  margin-left: 398px;
 }
 
 .subscriber-text {
