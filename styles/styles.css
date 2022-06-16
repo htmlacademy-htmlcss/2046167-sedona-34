@@ -126,6 +126,9 @@ body {
   height: 37px;
   background-color: #756157;
   border-radius: 4px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .main-index {
@@ -487,6 +490,8 @@ body {
 .search-text {
   text-align: center;
   margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .form-input {
@@ -532,10 +537,19 @@ body {
 
 .menu-crumbs {
   position: absolute;
-  width: 495px;
-  height: 78px;
+  width: 111px;
+  height: 21px;
   left: 2px;
   top: 88px;
+  margin-left: 70px;
+}
+
+.home {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+
+
 }
 
 .reset-list {
@@ -555,14 +569,99 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  width: 494px;
+  height: 78px;
   color: #ffffff;
-  /*background-color: #000000;*/
   position: absolute;
   margin-top: 35px;
-  margin-left: 635px;
   margin-bottom: 290px;
   margin-left: 70px;
+  padding: 0;
 }
+
+.header-text {
+  position: absolute;
+  width: 494px;
+  height: 78px;
+  /*left: 0px;*/
+  /*top: 0px;*/
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+/*.breadcrumbs-item {*/
+/*  margin-top: 123px;*/
+/*  margin-left: 72px;*/
+/*}*/
+
+.select-area {
+  display: flex;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.select-area .button {
+  width: 48px;
+  height: 48px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.pagination-container {
+  display: flex;
+  width: 1056px;
+  height: 60px;
+  margin-left: 73px;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+
+}
+
+.item-count {
+  margin-left: auto;
+}
+
+
+.product-list {
+  margin: 0;
+  padding: 0;
+}
+
 .product-title {
   font-weight: 700;
   font-size: 24px;
@@ -570,6 +669,7 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+
 .hotel {
   font-style: inherit;
   color: #333333;

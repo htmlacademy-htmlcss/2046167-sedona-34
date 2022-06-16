@@ -8,38 +8,45 @@
 <body>
 <header class="main-header">
   <link rel="stylesheet" href="./styles/styles.css">
-  <img class="sedona-logo" src="./images/sedona-logo.svg" width="139"
-       height="70" alt="Логотип сайта Седона">
+
   <nav class="navigation">
     <ul class="navigation-list">
+      <li class="page-logo>"><a class="logo-link" href="./index.html">
+        <img class="sedona-logo" src="./images/sedona-logo.svg" width="139"
+             height="70" alt="Логотип сайта Седона">
+      </a>
+      </li>
       <li class="navigation-item">
-        <a class="navigation-link" href="index.html">Главная</a>
+        <a class=" navigation-link navigation-link-current" href="#">Главная</a>
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">О Седоне</a>
       </li>
       <li class="navigation-item">
-        <a class="navigation-link-current" href="catalog.html">Гостиницы</a>
+        <a class="navigation-link" href="catalog.html">Гостиницы</a>
       </li>
     </ul>
     <ul class="navigation-list navigation-user">
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="visually-hidden">Поиск</span>
-          <img src="./images/search.svg" width="18" height="18" alt="Поиск" class="search">
+          <img src="./images/search.svg" width="18" height="18" class="search">
+
+
         </a>
       </li>
       <li class="navigation-item">
-        <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span>
+        <span class="visually-hidden">Избранное</span>
+        <a class="navigation-link" href="#">
           <img src="./images/favorite.svg" width="18"
-               height="17" alt="Избранное" class="favorite">
-
-
+               height="17" class="favorite">
+          <span class="like-counter"></span>
         </a>
       </li>
     </ul>
     <a class="navigation-button" href="#"><span class="visually-hidden">Поиск гостиницы</span>
       Хочу сюда</a>
+
 
   </nav>
 
@@ -53,8 +60,9 @@
                                         width="1200" height="403"
                                         alt="Красивый вид на каньон Седона"
                                         class="search-background"></div>
-      <div class="menu-crumbs"><h1 class="inner-header-title">Гостиницы
-        Седоны</h1>
+      <div class="menu-crumbs">
+        <div class="header-text"><h1 class="inner-header-title">Гостиницы
+          Седоны</h1></div>
         <ul class="breadcrumbs reset-list">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
@@ -66,6 +74,7 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
+      </div>
 
 
         <!--      <section class="catalog-products">-->
@@ -140,26 +149,30 @@
           форму с бегунком не показали в скринкасте. сделаю позже
           -->
         </form>
-      </div>
 
-        <h3>Найдено гостиниц
-          <!--какой-то счетчик
-          -->
-        </h3>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="popular">Сначала популярные</option>
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-        </select>
+
+      <h3>Найдено гостиниц
+        <!--какой-то счетчик
+        -->
+      </h3>
+      <div class="select-area"><select class="select-control"
+                                       aria-label="Сортировка">
+        <option value="popular">Сначала популярные</option>
+        <option value="cheap">Сначала дешёвые</option>
+        <option value="expensive">Сначала дорогие</option>
+      </select>
         <a href="#" class="button button-active">
           <span class="visually-hidden">Показать карточки</span>
         </a>
         <a href="#" class="button button-light">
-          <span class="visually-hidden">Показать карточку с кратким описанием</span>
+          <span
+            class="visually-hidden">Показать карточку с кратким описанием</span>
         </a>
         <a href="#" class="button button-active">
           <span class="visually-hidden" hidden>Показать список</span>
         </a>
+      </div>
+
       <ul class="product-list reset-list">
         <li class="product-card">
           <a class="product-card-link" href="#">
@@ -172,13 +185,13 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button-like button" href="#">В избранное</a>
           <section class="rating">
-    <img src="./images/star.svg" alt="Одна звезда" class="star">
-    <img src="./images/star.svg" alt="Одна звезда" class="star">
-    <img src="./images/star.svg" alt="Одна звезда" class="star">
-    <img src="./images/star.svg" alt="Одна звезда" class="star">
-    <p class="rating">Рейтинг: 8,5</p>
-  </section>
-</li>
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <p class="rating">Рейтинг: 8,5</p>
+          </section>
+        </li>
 
           <li class="product-card">
             <a class="product-card-link" href="#">
@@ -228,24 +241,25 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button-like button" href="#">В избранное</a>
           <section class="rating">
-              <img src="./images/star.svg" alt="Одна звезда" class="star">
-              <img src="./images/star.svg" alt="Одна звезда" class="star">
-              <p class="rating">Рейтинг: 5,0</p>
-            </section>
-          </li>
-        </ul>
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <img src="./images/star.svg" alt="Одна звезда" class="star">
+            <p class="rating">Рейтинг: 5,0</p>
+          </section>
+        </li>
+      </ul>
 
-      <ul class="pagination reset-list">
-        <li class="pagination-item">
-          <a class="pagination-link pagination-current">1</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">2</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">3</a>
-        </li>
-        <li class="pagination-item">
+      <div class="pagination-container">
+        <ul class="pagination reset-list">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
@@ -263,8 +277,12 @@
             <option value="ten">10</option>
           </select>
         </section>
-      </section>
-</header>
+        </section>
+
+      </div>
+
+
+    </header>
     <section class="subscribe">
       <h3>Подпишитесь на рассылку</h3>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
