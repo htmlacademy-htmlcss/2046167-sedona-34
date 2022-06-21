@@ -129,6 +129,9 @@ body {
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
+  margin-top: 14px;
+  margin-right: 70px;
+  line-height: 37px;
 }
 
 .main-index {
@@ -757,6 +760,7 @@ body {
   flex-direction: row;
   align-items: center;
   margin-top: 29px;
+  justify-content: space-between;
 }
 
 .rating {
