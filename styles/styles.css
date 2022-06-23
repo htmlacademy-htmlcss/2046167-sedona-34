@@ -582,7 +582,6 @@ body {
   position: relative;
   background-repeat: no-repeat;
   text-align: center;
-
 }
 
 .catalog-filter {
@@ -590,8 +589,6 @@ body {
   position: absolute;
   top: 254px;
   margin-left: 70px;
-  /*margin-top: 184px;*/
-  /*margin-left: 70px;*/
 }
 
 .inner-header-title {
@@ -754,7 +751,6 @@ body {
   margin-left: 20px;
 }
 
-
 .my-rating {
   display: flex;
   flex-direction: row;
@@ -777,7 +773,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 15px;
-
 }
 
 .item-count {
