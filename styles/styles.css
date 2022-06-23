@@ -231,8 +231,8 @@ body {
   height: 384px;
 }
 
-.advantages-block-2 {
-  display: flex;
+.advantages-block {
+  /*display: flex;*/
 }
 
 .advantages-item-2 {
