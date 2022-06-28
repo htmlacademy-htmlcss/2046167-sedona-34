@@ -611,7 +611,7 @@ body {
   height: 78px;
   /*left: 0px;*/
   /*top: 0px;*/
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 70px;
 }
 
@@ -638,7 +638,7 @@ body {
   width: 48px;
   height: 48px;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
 }
 
@@ -772,7 +772,6 @@ body {
   font-size: 16px;
   line-height: 37px;
   text-decoration: none;
-  text-transform: uppercase;
   padding: 0 15px;
 }
 
