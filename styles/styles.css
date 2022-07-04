@@ -47,6 +47,7 @@ body {
 .navigation {
   display: flex;
   width: 1200px;
+  height: 65px;
   margin: auto;
 }
 
@@ -62,10 +63,15 @@ body {
 
 
 .sedona-logo {
-
   display: block;
   position: relative;
   z-index: 1;
+}
+
+.page-logo {
+  width: 140px;
+  height: 70px;
+
 }
 
 .logo-link {
@@ -79,7 +85,7 @@ body {
 .navigation-list {
   display: flex;
   width: 600px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -88,16 +94,38 @@ body {
 .navigation-user {
   display: flex;
   justify-content: end;
-  max-width: 300px;
-  margin-left: auto;
+  flex-wrap: nowrap;
+  max-width: 100px;
   min-height: 33px;
   min-width: 22px;
   padding: 0;
+  margin-left: 291px;
+  margin-right: 20px;
+  height: 66px;
+  /*margin-top: auto;*/
+  list-style-type: none;
+}
+
+.navigation-user-right {
+  display: flex;
+  justify-content: end;
+  flex-wrap: nowrap;
+  max-width: 100px;
+  min-height: 33px;
+  min-width: 22px;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 237px;
+  margin-right: 20px;
+  margin-top: 24px;
 }
 
 .main-header {
   color: #000000;
   background-color: #ffffff;
+  width: 1200px;
+  height: 65px;
+  margin: 0 auto;
 }
 
 .page-container {
@@ -121,6 +149,17 @@ body {
 .main-container {
   flex-grow: 1;
   padding-top: 0;
+}
+
+.navigation-user-link {
+  width: 18px;
+  height: 18px;
+  padding: 24px 12px;
+
+}
+
+.search-icon {
+  padding: 0;
 }
 
 .navigation-button {
@@ -153,8 +192,8 @@ body {
 .welcome-text {
   position: absolute;
   display: block;
-  margin-left: 351px;
-  margin-top: -450px;
+  margin-left: 350px;
+  margin-top: -440px;
 
   /*display: inline-block;*/
   /*width: 458px;*/
