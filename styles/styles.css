@@ -588,6 +588,24 @@ body {
   width: 715px;
   height: 560px;
   border-radius: 30px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url("../images/close.svg");
+  border-radius: 50%;
+  margin-right: 70px;
+  margin-top: 54px;
 
 }
 
