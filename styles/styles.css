@@ -802,6 +802,7 @@ body {
   gap: 18px;
   padding: 0;
   margin-bottom: 60px;
+  justify-content: center;
 }
 
 .product-card-image {
