@@ -468,11 +468,7 @@ body {
 
 .subscribe-form {
   display: flex;
-  flex-grow: 1;
-  /*position: absolute;*/
-  /*margin-bottom: 94px;*/
-
-
+  margin-top: 20px;
 }
 
 /* Catalog */
@@ -488,6 +484,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Item */
@@ -512,8 +511,10 @@ body {
 .subscription-box {
   width: 800px;
   height: 223px;
-  margin: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-email {
@@ -524,11 +525,9 @@ body {
 }
 
 .subscriber-text {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
-  font-style: inherit;
 }
 
 .button-all {
@@ -562,6 +561,13 @@ body {
 
 .form-input {
   font-family: inherit;
+  border-radius: 10px 0 0 10px;
+  width: 576px;
+  padding-left: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
 }
 
 .form-button {
@@ -579,7 +585,7 @@ body {
   border: none;
   width: 200px;
   height: 60px;
-
+  padding: 0;
 }
 
 .page-footer {
