@@ -682,7 +682,6 @@ body {
 /*}*/
 
 .home {
-  position: absolute;
   width: 12px;
   height: 12px;
   color: #ffffff;
@@ -720,6 +719,8 @@ body {
   width: 494px;
   height: 78px;
   color: #ffffff;
+  margin-left: 70px;
+  margin-bottom: 10px;
 }
 
 .header-text {
@@ -734,6 +735,7 @@ body {
 
 .breadcrumbs-item-list {
   display: flex;
+  margin-left: 70px;
 }
 
 .breadcrumbs-item {
@@ -742,7 +744,10 @@ body {
 
 .after {
   margin-right: 10px;
-  margin-left: 10px;
+}
+
+.breadcrumbs-link {
+  color: #ffffff;
 
 }
 
