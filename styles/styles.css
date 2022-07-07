@@ -734,6 +734,11 @@ body {
   margin-left: 70px;
 }
 
+breadcrumbs-link {
+  color: #ffffff;
+
+}
+
 /*.breadcrumbs {*/
 /*  display: flex;*/
 /*  flex-direction: row;*/
