@@ -823,6 +823,12 @@ body {
   position: absolute;
 }
 
+.range-input::-webkit-outer-spin-button
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 .pagination-container {
   display: flex;
   width: 1056px;
