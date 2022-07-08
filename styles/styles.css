@@ -787,7 +787,7 @@ body {
   position: absolute;
   height: 4px;
   background-color: #ffffff;
-  /*margin-bottom: 32px;*/
+  position: relative;
 }
 
 .range-toggle {
@@ -812,9 +812,15 @@ body {
 
 
 .toggle-min {
-  top: -288px;
+  top: -8px;
   left: -10px;
+  position: absolute;
+}
 
+.toggle-max {
+  top: -8px;
+  right: -10px;
+  position: absolute;
 }
 
 .pagination-container {
