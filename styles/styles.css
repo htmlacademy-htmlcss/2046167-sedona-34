@@ -775,6 +775,22 @@ body {
   gap: 8px;
 }
 
+.range-wrapper-inputs {
+  display: flex;
+  justify-content: center
+}
+
+.catalog-filter-label {
+  display: flex;
+  margin-left: 14px;
+}
+
+.catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .range-scale {
   position: relative;
   height: 4px;
@@ -810,6 +826,29 @@ body {
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control:hover .control-mark {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.control-input:disabled + .control-mark {
+  border: 3px solid #83B3D3;
+}
+
+.control-mark {
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  left: 1px;
+  position: absolute;
+
+}
 
 .toggle-min {
   top: -8px;
