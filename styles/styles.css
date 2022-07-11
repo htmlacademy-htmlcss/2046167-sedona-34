@@ -800,7 +800,7 @@ body {
 }
 
 .range-bar {
-  position: absolute;
+  /*position: absolute;*/
   height: 4px;
   background-color: #ffffff;
   position: relative;
@@ -838,6 +838,56 @@ body {
 
 .control-input:disabled + .control-mark {
   border: 3px solid #83B3D3;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 12px;
+  height: 10px;
+  content: "";
+  background-image: url("../images/tick.svg");
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  width: 1057px;
+  margin-right: auto;
+}
+
+.select-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 290px;
+}
+
+.select-control {
+  width: 290px;
+  padding: 14px 20px;
+  padding-right: 48px;
+  font: inherit;
+  font-weight: 400;
+  color: #333333;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-image: url("../images/arrow-1.svg");
+  background-position: right 16px center;
+  appearance: none;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .control-mark {

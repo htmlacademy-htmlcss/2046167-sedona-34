@@ -84,34 +84,46 @@
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list reset-list">
+
             <li class="catalog-filter-item">
-              <!--              <img src="images/checkbox.svg" width="12" height="10"-->
-              <!--                   alt="Чекбокс" class="checkbox">-->
               <label class="control">
                 <input class="visually-hidden control-input" type="checkbox"
                        name="swim"
                        checked>
                 <span class="control-mark"></span>
                 <span class="control-label">Бассейн</span>
-
               </label>
             </li>
 
-            <li class="catalog-filter-item">
-                <img src="images/checkbox.svg" width="12" height="10" alt="Чекбокс" class="checkbox">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="parking" checked>
-                  Парковка
-                </label>
-              </li>
 
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="wifi">
-                  Wi-Fi
-                </label>
-              </li>
-            </ul>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="visually-hidden control-input" type="checkbox"
+                       name="parking"
+                       checked>
+                <span class="control-mark"></span>
+                <span class="control-label">Парковка</span>
+              </label>
+            </li>
+
+
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="visually-hidden control-input" type="checkbox"
+                       name="wifi">
+                <span class="control-mark"></span>
+                <span class="control-label">Wi-Fi</span>
+              </label>
+            </li>
+
+
+            <!--              <li class="catalog-filter-item">-->
+            <!--                <label class="control">-->
+            <!--                  <input class="control-input" type="checkbox" name="wifi">-->
+            <!--                  Wi-Fi-->
+            <!--                </label>-->
+            <!--              </li>-->
+          </ul>
 
 
           </fieldset>
@@ -183,28 +195,27 @@
       </form>
 
 
-      <h3>Найдено гостиниц
-        <!--какой-то счетчик
-        -->
-      </h3>
-      <div class="select-area"><select class="select-control"
-                                       aria-label="Сортировка">
-        <option value="popular">Сначала популярные</option>
-        <option value="cheap">Сначала дешёвые</option>
-        <option value="expensive">Сначала дорогие</option>
-      </select>
-        <a href="#" class="button button-active">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a href="#" class="button button-light">
+      <div class="sorting">
+        <h3>Найдено гостиниц</h3>
+        <div class="select-area">
+          <select class="select-control"
+                  aria-label="Сортировка">
+            <option value="popular">Сначала популярные</option>
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
+          <a href="#" class="button button-active">
+            <span class="visually-hidden">Показать карточки</span>
+          </a>
+          <a href="#" class="button button-light">
           <span
             class="visually-hidden">Показать карточку с кратким описанием</span>
-        </a>
-        <a href="#" class="button button-active">
-          <span class="visually-hidden" hidden>Показать список</span>
-        </a>
+          </a>
+          <a href="#" class="button button-active">
+            <span class="visually-hidden" hidden>Показать список</span>
+          </a>
+        </div>
       </div>
-
       <div class="catalog-container">
         <ul class="product-list reset-list">
           <li class="product-card">
